@@ -1,0 +1,77 @@
+.content {
+  position: relative;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.background {
+  position: absolute;
+  height: 95vh;
+  left: 0;
+}
+
+.info {
+  width: 60%;
+  margin-right: 100px;
+  margin-top: 50px;
+  color: #FFF;
+}
+
+input {
+  background: transparent;
+  font-size: 18px;
+  padding: 10px 20px;
+  min-width: 250px;
+  width: 70%;
+  margin-right: 12px;
+  border-radius: 22px;
+  border: 1px solid #999;
+  color: #999;
+}
+
+button {
+  background: #2D333B;
+  font-size: 15px;
+  padding: 10px;
+  min-width: 150px;
+  border-radius: 22px;
+  border: 1px solid #999;
+  color: #fff;
+}
+
+.perfil {
+  display: flex;
+  margin: 50px 0px;
+}
+
+.profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid #E5E5E5;
+  margin-right: 30px;
+}
+
+.perfil h3 {
+  color: #999;
+  font-size: 24px;
+}
+
+.perfil span {
+  color: #999;
+  font-size: 12px;
+}
+
+.perfil p {
+  color: #999;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.repo {
+  font-size: 32px;
+  margin: 12px 0;
+  text-align: center;
+}
